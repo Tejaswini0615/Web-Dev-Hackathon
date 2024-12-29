@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIT Robotics Club</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <img src="logo.jpeg" alt="Logo" class="me-2" height="40">
+                    <span>VIT Robotics Club</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#events">Events</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                        <li class="nav-item"><a class="btn btn-warning" href="#join">Join Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero position-relative">
+        <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="phone.png" class="d-block w-100" alt="Robotics" height="200">
+                    <div class="carousel-caption">
+                        <h1 class="text-light">Building the Future with Robotics</h1>
+                        <p>Join our journey in innovation, technology, and robotics!</p>
+                        <a href="#about" class="btn btn-warning">Learn More</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="college.jpeg" class="d-block w-100" alt="Robotics">
+                    <div class="carousel-caption">
+                        <h1 class="text-light">Inspiring Innovation</h1>
+                        <p>Explore the latest advancements in robotics and AI.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-light text-center">
+        <div class="container">
+            <h2 class="mb-4">About the Club</h2>
+            <p class="lead">The VIT Robotics Club is dedicated to advancing robotics and technology through workshops, competitions, and collaborative projects that foster innovation.</p>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Upcoming Events</h2>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card h-100 shadow">
+                        <img src="event1.png" class="card-img-top" alt="Event 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Robotics Workshop</h5>
+                            <p class="card-text">Learn the basics of robotics and programming with hands-on experience.</p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card h-100 shadow">
+                        <img src="event2.png" class="card-img-top" alt="Event 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Annual Robotics Competition</h5>
+                            <p class="card-text">Compete with teams across the country in innovative robotics challenges.</p>
+                            <a href="#" class="btn btn-primary">Register Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Projects</h2>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card h-100 shadow">
+                        <img src="project1.png" class="card-img-top" alt="AI-Based Drone">
+                        <div class="card-body">
+                            <h5 class="card-title">AI-Based Drone</h5>
+                            <p class="card-text">A drone project powered by AI for autonomous navigation and object recognition.</p>
+                            <a href="#" class="btn btn-primary">Explore</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card h-100 shadow">
+                        <img src="project2.png" class="card-img-top" alt="Robot Arm">
+                        <div class="card-body">
+                            <h5 class="card-title">Robot Arm</h5>
+                            <p class="card-text">An automated robotic arm designed for precision tasks and assembly line applications.</p>
+                            <a href="#" class="btn btn-primary">Explore</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="4" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-warning w-100">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+   <!-- Footer -->
+<footer class="bg-primary text-white py-3">
+    <div class="container text-center">
+        <p>&copy; 2024 VIT Robotics Club. All Rights Reserved.</p>
+        <div class="social-links">
+            <a href="https://www.facebook.com/VITCCRoboticsClub?mibextid=ZbWKwL" class="text-white me-3"target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/robotics_club_vitc/" class="text-white me-3" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/robotics-club-vitc/" class="text-white" target="_blank"><i class="fab fa-linkedin"></i></a> <!-- Replaced Twitter with LinkedIn -->
+        </div>
+    </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
