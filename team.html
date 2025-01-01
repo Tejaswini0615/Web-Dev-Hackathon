@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team - VIT Robotics Club</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        h5{
+            color:black;
+        }
+        /* Team Page Carousel */
+        .team-carousel .carousel-item {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .team-carousel .carousel-item img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin: 0 auto;
+            background-color: transparent;
+        }
+
+        .team-carousel .carousel-caption {
+            position: static;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .team-carousel .carousel-caption h5 {
+            font-size: 1.25rem;
+            margin-top: 10px;
+        }
+
+        .team-carousel .carousel-caption p {
+            font-size: 1rem;
+            color: #555;
+        }
+
+        .team-carousel .social-icons a {
+            margin: 0 5px;
+            font-size: 1.2rem;
+            color: #007bff;
+        }
+
+        .team-carousel .social-icons a:hover {
+            color: #0056b3;
+        }
+
+        .team-carousel .carousel-control-prev-icon,
+        .team-carousel .carousel-control-next-icon {
+            filter: invert(1);
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 50%;
+            padding: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Responsive Team Carousel */
+        @media (max-width: 768px) {
+            .team-carousel .carousel-item img {
+                width: 100px;
+                height: 100px;
+            }
+
+            .team-carousel .carousel-caption h5 {
+                font-size: 1rem;
+            }
+
+            .team-carousel .carousel-caption p {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="index.html">
+                    <img src="logo.jpeg" alt="Logo" class="me-2" height="40">
+                    <span>VIT Robotics Club</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#">Our Team</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Intro Section -->
+    <section class="py-5 bg-light">
+        <div class="container d-flex flex-column flex-lg-row align-items-center">
+            <div class="text-center text-lg-start me-lg-5">
+                <h1 class="fw-bold">Engineers, Coders, Creators</h1>
+                <p class="lead">Discover the talent driving our innovations.</p>
+                <a href="index.html" class="btn btn-primary">Back to Home</a>
+            </div>
+            <img src="images/team_intro.png" alt="Team Image" class="img-fluid rounded" style="max-height: 300px;">
+        </div>
+    </section>
+
+    <!-- Faculty Section -->
+    <section class="py-5">
+        <div class="container d-flex flex-column flex-lg-row align-items-center">
+            <img src="images/faculty.png" alt="Dr. Arockia Selvakumar" class="img-fluid rounded me-lg-5" style="max-height: 300px;">
+            <div>
+                <h2>From the Desk of Faculty Coordinator</h2>
+                <p class="lead fw-bold">Dr. Arockia Selvakumar Arockia Doss</p>
+                <p>
+                    As the faculty coordinator of the Robotics Club, it is my privilege to introduce our dynamic and vibrant community. 
+                    Our club is a hub of creativity, innovation, and collaborative learning. We provide a platform for students to explore their passion 
+                    for robotics, expand their technical skills, and cultivate a problem-solving mindset. 
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Members Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center">Our Talented and Experienced Team Members</h2>
+            <p class="text-center">Discover the Expertise and Passion of Our Highly Capable Team Members in Delivering Exceptional Solutions and Services</p>
+
+            <!-- Core 24-25 Carousel -->
+            <h3 class="mt-5">Core 24-25</h3>
+            <div id="carouselCore24-25" class="carousel slide team-carousel" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/pres1.png" alt="Naman Tolasaria" class="d-block mx-auto">
+                        <div class="carousel-caption">
+                            <h5>Naman Tolasaria</h5>
+                            <p>President</p>
+                            <div class="social-icons">
+                                <a href="https://www.linkedin.com/in/naman-tolasaria-732978158/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://www.instagram.com/naman_hmm/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/vp1.png" alt=" vice president" class="d-block mx-auto">
+                        <div class="carousel-caption">
+                            <h5>S Sree Harini</h5>
+                            <p>Vice President</p>
+                            <div class="social-icons">
+                                <a href="https://www.linkedin.com/in/sree-harini-shivakumar-b27b32277/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://www.instagram.com/sreeharini04/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/wdh.png" alt="web dev head" class="d-block mx-auto">
+                        <div class="carousel-caption">
+                            <h5>Neharika</h5>
+                            <p>Web Development Head</p>
+                            <div class="social-icons">
+                                <a href="https://www.linkedin.com/in/neharika-gond-167460274?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://www.instagram.com/_neharika.04/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/dh.png" alt="Design Head" class="d-block mx-auto">
+                        <div class="carousel-caption">
+                            <h5>T.Mahesh Karthick</h5>
+                            <p>Design Head</p>
+                            <div class="social-icons">
+                                <a href="https://www.linkedin.com/in/mahesh-karthick-t-299610246?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://www.instagram.com/itz_mags_/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/smh.png" alt="social media" class="d-block mx-auto">
+                        <div class="carousel-caption">
+                            <h5>Pranav Dandegaonkar</h5>
+                            <p>Social Media Head</p>
+                            <div class="social-icons">
+                                <a href="https://www.linkedin.com/in/pranav-dandegaonkar-0084b4253/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://www.instagram.com/pranavd_02/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/mh.png" alt="management head" class="d-block mx-auto">
+                        <div class="carousel-caption">
+                            <h5>Raghav Arora</h5>
+                            <p>Management Head</p>
+                            <div class="social-icons">
+                                <a href="https://www.linkedin.com/in/raghav-arora-470928261?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://www.instagram.com/raghavarora9899?igsh=MXdldXpoZHE0eWlydQ==" target="_blank"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/th.png" alt="teaching head" class="d-block mx-auto">
+                        <div class="carousel-caption">
+                            <h5>Sagar Ramanathan</h5>
+                            <p>Teaching Head</p>
+                            <div class="social-icons">
+                                <a href="https://www.linkedin.com/in/shivam-kumar-1b1b3b1b4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://www.instagram.com/shivamkumar_07/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/ph.png" alt="projecthead" class="d-block mx-auto">
+                            <div class="carousel-caption">
+                                <h5>Yogaraj N</h5>
+                                <p>Project Head</p>
+                                <div class="social-icons">
+                                    <a href="https://www.linkedin.com/in/yogaraj-n-63b446304?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                    <a href="https://www.instagram.com/jar_vii_7/" target="_blank"><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+</div>
+                </div>
+
+                <!-- Carousel Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselCore24-25" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselCore24-25" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+            </div>
+
+            <!-- Core 23-24 Carousel -->
+            <h3 class="mt-5">Core 23-24</h3>
+            <div id="carouselCore23-24" class="carousel slide team-carousel" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/pres2.png" alt="president" class="d-block mx-auto">
+                        <div class="carousel-caption">
+                            <h5>Harsh Pandey</h5>
+                            <p>President</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="images/pres3.png" alt="president" class="d-block mx-auto">
+                        <div class="carousel-caption">
+                            <h5>Akash Kumar</h5>
+                            <p>President</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="images/vp2.png" alt="vice president" class="d-block mx-auto">
+                        <div class="carousel-caption">
+                            <h5>Sohail Agarwal</h5>
+                            <p>Vice President</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/vp3.png" alt="vice president" class="d-block mx-auto">
+                        <div class="carousel-caption">
+                            <h5>Naveena Merin Vinny</h5>
+                            <p>Vice President</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/fh.png" alt="Finance Head" class="d-block mx-auto">
+                        <div class="carousel-caption">
+                            <h5>Suyansh Agarwal</h5>
+                            <p>Finance Head</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/gs.png" alt="general Secretary" class="d-block mx-auto">
+                        <div class="carousel-caption">
+                            <h5>Atharv Pathak</h5>
+                            <p>General Secretary</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/th1.png" alt="technical head" class="d-block mx-auto">
+                        <div class="carousel-caption">
+                            <h5>Sarvesh Agarwal</h5>
+                            <p>Technical Head</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/design.png" alt="design" class="d-block mx-auto">
+                        <div class="carousel-caption">
+                            <h5>Khsitij Agarwal</h5>
+                            <p>Design</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/mh1.png" alt="marketing head" class="d-block mx-auto">
+                        <div class="carousel-caption">
+                            <h5>Godavari Tanmayi</h5>
+                            <p>Marketing Head</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/mh2.png" alt="Jane Smith" class="d-block mx-auto">
+                        <div class="carousel-caption">
+                            <h5>Utkarsh Kedia</h5>
+                            <p>Marketing Head</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Carousel Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselCore23-24" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselCore23-24" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recruitment Section -->
+    <section class="py-5 text-center bg-primary text-white">
+        <h2>Be the part of our splendid team.....!</h2>
+        <p>Apply for the recruitment in the club.</p>
+        <a href="mailto:roboticsclubvitc@gmail.com" class="btn btn-light">Mail Us</a>
+    </section>
+
+    <!-- Quote Section -->
+    <section class="py-5 bg-light text-center">
+        <h2>Quote of the Day</h2>
+        <blockquote class="blockquote fs-4">
+            <p>"Start small, think big. Don’t worry about too many things at once. Take a handful of simple things, and build on them."</p>
+            <footer class="blockquote-footer">Mark Zuckerberg</footer>
+        </blockquote>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white py-3">
+        <div class="container text-center">
+            <p>&copy; 2024 VIT Robotics Club. All Rights Reserved.</p>
+            <div class="social-links">
+                <a href="https://www.facebook.com/VITCCRoboticsClub?mibextid=ZbWKwL" class="text-white me-3" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/robotics_club_vitc/" class="text-white me-3" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/company/robotics-club-vitc/" class="text-white" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
